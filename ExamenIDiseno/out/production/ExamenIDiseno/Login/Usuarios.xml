@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<usuarios>
+    <Usuario id="1">
+    <Correo>Wilopez</Correo>
+    <Contraseña>Wilopez</Contraseña>
+    </Usuario>
+</usuarios>

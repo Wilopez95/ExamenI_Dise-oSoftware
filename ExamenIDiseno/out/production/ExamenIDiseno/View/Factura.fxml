@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox onMouseClicked="#add" prefHeight="1080.0" prefWidth="1920.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/header.png" />
+               </image>
+            </ImageView>
+            <HBox prefHeight="891.0" prefWidth="1920.0">
+               <children>
+                  <VBox prefHeight="891.0" prefWidth="700.0">
+                     <children>
+                        <Label text="Información">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="240.0" top="50.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label text="¡Seleccione tipo de muebles de cocina!">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="100.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <TextField fx:id="tipo_mueble">
+                           <VBox.margin>
+                              <Insets left="200.0" right="200.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <Label text="¡Seleccione tipo de azulejos!">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="100.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <TextField fx:id="tipo_azulejo">
+                           <VBox.margin>
+                              <Insets left="200.0" right="200.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <Label fx:id="habitacion" text="Habitaciones : 1">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="100.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="comedor" text="Comedor : 1">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="100.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="baños" text="Baños : 1">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="100.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="cocina" text="Cocina : 1">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="100.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="balcon">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="100.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="lavanderia">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="100.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="prima" text="Prima : 100000$">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="100.0" top="60.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="mensualidad" text="Pago mensual : 16700$">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="100.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="precio" text="Precio : 500000$">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="100.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="baños" prefHeight="891.0" prefWidth="596.0">
+                     <children>
+                        <Label text="Apartamento A1">
+                           <VBox.margin>
+                              <Insets left="215.0" right="215.0" top="50.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="436.0" fitWidth="618.0" pickOnBounds="true" preserveRatio="true">
+                           <VBox.margin>
+                              <Insets top="200.0" />
+                           </VBox.margin>
+                           <image>
+                              <Image url="@assets/A1.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="891.0" prefWidth="630.0">
+                     <children>
+                        <Label text="Extras ">
+                           <VBox.margin>
+                              <Insets left="280.0" top="50.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <CheckBox fx:id="lineaBlanca" mnemonicParsing="false" onMouseClicked="#addLinea" text="Linea blanca">
+                           <VBox.margin>
+                              <Insets left="100.0" top="50.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox fx:id="camas" mnemonicParsing="false" onMouseClicked="#addCamas" text="Camas">
+                           <VBox.margin>
+                              <Insets left="100.0" top="50.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox fx:id="Comedor" mnemonicParsing="false" onMouseClicked="#addComedor" text="Comedor">
+                           <VBox.margin>
+                              <Insets left="100.0" top="50.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </CheckBox>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="74.0" text="Volver">
+                                 <HBox.margin>
+                                    <Insets left="200.0" right="50.0" top="50.0" />
+                                 </HBox.margin>
+                              </Button>
+                              <Button mnemonicParsing="false" text="Confirmar">
+                                 <HBox.margin>
+                                    <Insets top="50.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="350.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</Pane>

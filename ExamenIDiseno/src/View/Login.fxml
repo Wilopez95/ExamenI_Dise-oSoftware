@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="1080.0" maxWidth="1920.0" minHeight="1024.0" minWidth="1280.0" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <SplitPane dividerPositions="0.10575139146567718" layoutX="-1.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="1080.0" prefWidth="1920.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="154.0" prefWidth="158.0">
+               <children>
+                  <ImageView fitHeight="82.0" fitWidth="152.0" layoutX="30.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/header.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1024.0" prefWidth="1920.0">
+               <children>
+                  <SplitPane dividerPositions="0.21547248182762202" layoutX="612.0" layoutY="55.0" orientation="VERTICAL" prefHeight="590.0" prefWidth="575.0" AnchorPane.bottomAnchor="295.0" AnchorPane.leftAnchor="600.0" AnchorPane.rightAnchor="600.0" AnchorPane.topAnchor="55.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="154.0" prefWidth="405.0">
+                           <children>
+                              <ImageView fitHeight="106.0" fitWidth="158.0" layoutX="279.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/header.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="458.0" prefWidth="638.0">
+                           <children>
+                              <TextField fx:id="user" layoutX="265.0" layoutY="88.0" prefHeight="39.0" prefWidth="188.0" AnchorPane.leftAnchor="265.0" AnchorPane.rightAnchor="265.0" />
+                              <PasswordField fx:id="pass" layoutX="265.0" layoutY="197.0" prefHeight="39.0" prefWidth="188.0" AnchorPane.leftAnchor="265.0" AnchorPane.rightAnchor="265.0" />
+                              <Button layoutX="201.0" layoutY="335.0" mnemonicParsing="false" onAction="#OnClick" prefHeight="38.0" prefWidth="142.0" text="Iniciar sesión" AnchorPane.leftAnchor="270.0" AnchorPane.rightAnchor="270.0">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font></Button>
+                              <Label layoutX="328.0" layoutY="39.0" text="Usuario" AnchorPane.leftAnchor="327.0" AnchorPane.rightAnchor="327.0">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="313.0" layoutY="163.0" text="Contraseña" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="310.0">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="270.0" layoutY="263.0" text="¿Olvidaste tu contraseña?" underline="true" AnchorPane.leftAnchor="270.0" AnchorPane.rightAnchor="270.0" />
+                              <Label fx:id="errormsj" disable="true" layoutX="345.0" layoutY="298.0" textFill="#c20909" AnchorPane.leftAnchor="290.0" AnchorPane.rightAnchor="290.0">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</Pane>
